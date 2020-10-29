@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Abys-Regular';
+    src: url("/assets/fonts/Abys-Regular.otf");
+}
+
+@font-face {
+    font-family: 'Atma-Bold';
+    src: url("/assets/fonts/Atma-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: 'Brusher';
+    src: url("/assets/fonts/Brusher.ttf");
+}
+
+@font-face {
+    font-family: 'AppSILR';
+    src: url("/assets/fonts/AppSILR.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+
+body {
+    background-color: #fff3c1;
+}
+
+nav {
+    font-family: 'Atma-Bold';
+    text-transform: uppercase;
+    margin: 1% 12% 0 12%;
+    letter-spacing: .05em;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    height: 4.5vh;
+}
+
+
+nav h1 {
+    font-size: 1.9rem;
+    text-transform: none;
+    padding-top: 1%;
+}
+
+
+nav h1 img {
+    position: relative;
+    top: -1vh;
+    width: 3.5vw;
+}
+
+nav h1 span {
+    position: relative;
+    top: -3.3vh;
+
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav ul li {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 25px;
+    padding-top: 3.5%;
+    opacity: 1;
+}
+
+nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+
+}
+
+/* Front Page */
+
+
+.container {
+    height: 100%;
+}
+
+.home {
+    padding-bottom: 34.4vh;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 16vh;
+    left: -19.5vw;
+}
+
+.words h1 img {
+    width: 15vw;
+}
+
+.words h1 span {
+    font-family: "Atma-Bold";
+    font-size: 100px;
+    color: #0036ce;
+    position: relative;
+    top: -5vh;
+    left: -1.5vw;
+}
+
+.words p {
+    text-align: left;
+    font-size: 2.25rem;
+    position: relative;
+    top: -3vh;
+    font-family: 'AppSILR';
+    line-height: 1.2;
+}
+
+.sub-pages {
+    font-family: 'AppSILR';
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    color: blue;
+    text-decoration: underline;
+    font-family: "Atma-Bold";
+
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 15% 4% 15%;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.card {
+    width: 20vw;
+    height: 50vh;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+    /* border: 1.5px solid black; */
+}
+
+.card h1 {
+    font-family: "Atma-Bold";
+    /* font-family: 'AppSILR'; */
+    padding: 7.5% 10% 5% 10%;
+    font-size: 2.25rem;
+}
+
+.card h3 {
+    margin-top: 1vh;
+    font-weight: 00;
+    padding: 0% 15% 0% 15%;
+    height: 27.5vh;
+    font-size: 1.35em;
+    margin-bottom: 2vh;
+}
+
+.card a {
+    background: #0036ce;
+    border-radius: 50px;
+    color: white;
+    padding: 5% 7.5%;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.sponsers{
+    margin-top: 5vh;
+    padding-bottom: 7.5vh;
+}
+
+.grid {
+    display: grid;
+	grid-template-columns: repeat(2, minmax(100px, 1fr));
+	grid-gap: 6em;
+    margin: 3rem auto;
+    width: 55%;
+}
+
+.place {
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.place img {
+    width: 15vw;
+    height: auto;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.image {
+    height: 36vh;
+}
+
+.place a, .person h1{
+    padding-bottom: .5vh;
+    padding-top: 1vh;
+
+    font-family: "Atma-Bold";
+    text-transform: none;
+    font-size: 2rem;
+    display: inline-block;
+    color: #0036ce;
+}
+
+.place h2, .person h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'AppSILR';
+}
+
+.t-grid {
+    display: grid;
+	grid-template-columns: repeat(3, minmax(100px, 1fr));
+	grid-gap: 1.5em;
+    margin: 3rem auto;
+    width: 70%;
+}
+
+.person {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .place {
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.person img {
+    border-radius: 10px;
+    width: 20vw;
+    height: 50vh;
+}
