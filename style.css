@@ -102,7 +102,7 @@ nav ul li a {
     align-items: center;
     position: relative;
     padding-top: 16vh;
-    left: -19.5vw;
+    left: -2vw;
 }
 
 .words h1 img {
@@ -119,12 +119,35 @@ nav ul li a {
 }
 
 .words p {
-    text-align: left;
+    text-align: center;
     font-size: 2.25rem;
     position: relative;
     top: -3vh;
     font-family: 'AppSILR';
     line-height: 1.2;
+}
+
+.scroll-down {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 3.5%;
+    text-align: center;
+    display: inline-block;
+    font-size: 2.5rem;
+    color: white;
+    animation: move 1s infinite alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(16px);
+    }
 }
 
 .sub-pages {
