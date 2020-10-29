@@ -82,7 +82,17 @@ nav ul li a {
     text-decoration: none;
     cursor: pointer;
     color: inherit;
+}
 
+nav ul li a:hover {
+    cursor: pointer;
+}
+
+.donate {
+    background-color: #0036ce;
+    border-radius: 3rem;
+    padding: 5% 15%;
+    color: white;
 }
 
 /* Front Page */
