@@ -4,5 +4,5 @@ document.querySelectorAll('nav li a').forEach(elem => elem.addEventListener("cli
 
 function scroll(aid){
     var aTag = $("div[name='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top}, 1250);
+    $('html,body').animate({scrollTop: aTag.offset().top-50}, 1250);
 }

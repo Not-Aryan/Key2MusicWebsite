@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Abys-Regular';
+    src: url("/assets/fonts/Abys-Regular.otf");
+}
+
+@font-face {
+    font-family: 'Atma-Bold';
+    src: url("/assets/fonts/Atma-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: 'Brusher';
+    src: url("/assets/fonts/Brusher.ttf");
+}
+
+@font-face {
+    font-family: 'AppSILR';
+    src: url("/assets/fonts/AppSILR.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+
+body {
+    background-color: #fff3c1;
+}
+
+nav {
+    font-family: 'Atma-Bold';
+    text-transform: uppercase;
+    margin: 1% 12% 0 12%;
+    letter-spacing: .05em;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    height: 6.5vh;
+}
+
+
+nav h1 {
+    font-size: 1.9rem;
+    text-transform: none;
+    padding-top: 1%;
+}
+
+
+nav h1 img {
+    position: relative;
+    top: -1vh;
+    width: 3.5vw;
+}
+
+nav h1 span {
+    position: relative;
+    top: -3.3vh;
+
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav ul li {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 25px;
+    padding-top: 3.5%;
+    opacity: 1;
+}
+
+nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+}
+
+.donate {
+    background-color: #0036ce;
+    border-radius: 3rem;
+    padding: 5% 15%;
+    color: white;
+}
+
+/* Front Page */
+
+
+.container {
+    height: 100%;
+}
+
+.title {
+    position: relative;
+    /* left: -2.5vw; */
+    text-align: left;
+    font-size: 3.5rem;
+    color: blue;
+    text-decoration: underline;
+    font-family: "Atma-Bold";
+}
+
+.row h2 {
+    font-size: 1.75rem;
+}
+
+
+.ec {
+    margin-top: 1.25vh;
+}
+
+.row ul li {
+    margin-left: 2vw;
+    font-size: 1.5rem;
+    padding: .75vh 1vw;
+}
+
+.description {
+    margin-top: 2.5vh
+}
+
+.row {
+    position: relative;
+    left: -2.5vw;
+    display: flex;
+    flex-direction: row;
+    padding: 0% 15% 4% 15%;
+    justify-content: space-between;
+    margin-top: 5vh;
+    font-family: 'AppSILR';
+}
+
+.form {
+    position: relative;
+    left: 4vw;
+}
+
+
+footer {
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+hr {
+    height: 3px;
+    background-color: #0036ce;
+    outline: none;
+    border: none;
+    margin: 0 15% 0 15%;
+    border-radius: 25px;
+    margin-bottom: 1%;
+    opacity: .6;
+    position: relative;
+    top: 2vh;
+}
+
+footer {
+    font-family: 'AppSILR';
+}
+footer .copyright{
+    font-size: 2rem;
+    color: #0036ce;
+}
+
+footer .copyright strong{
+    font-family: 'AppSILR';
+}
+
+footer .copyright img {
+    position: relative;
+    top: 1.5vh;
+    width: 3vw;
+    height: auto;
+}
+
+footer ul, footer div {
+    display: block;
+    list-style: none;
+}
+
+footer ul li {
+    margin: 1em;
+    display: inline-block;
+}
+  
+footer ul li a {
+    font-size: 2rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 4rem;
+    line-height: 30px;
+    color: #0036ce;
+}

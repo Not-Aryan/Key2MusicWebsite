@@ -41,7 +41,7 @@ nav {
     display: flex;
     justify-content: space-between;
     color: black;
-    height: 4.5vh;
+    height: 6.5vh;
 }
 
 
@@ -170,7 +170,6 @@ nav ul li a:hover {
     color: blue;
     text-decoration: underline;
     font-family: "Atma-Bold";
-
 }
 
 
@@ -184,7 +183,7 @@ nav ul li a:hover {
 
 .card {
     width: 20vw;
-    height: 50vh;
+    height: 45vh;
     background: white;
     border-radius: 10px;
     border: 1px solid rgba(0,0,0,.125);
@@ -203,7 +202,7 @@ nav ul li a:hover {
     margin-top: 1vh;
     font-weight: 00;
     padding: 0% 15% 0% 15%;
-    height: 27.5vh;
+    height: 22vh;
     font-size: 1.35em;
     margin-bottom: 2vh;
 }
@@ -215,6 +214,8 @@ nav ul li a:hover {
     padding: 5% 7.5%;
     font-size: 1.25rem;
     text-decoration: none;
+    width: 10vw;
+    height: auto;
 }
 
 .sponsers{
@@ -268,6 +269,25 @@ nav ul li a:hover {
     font-family: 'AppSILR';
 }
 
+.contact {
+    margin-top: 10vh;
+    text-align: center;
+}
+.contact h2:nth-child(1){
+    font-family: "Atma-Bold";
+    font-size: 2rem;
+
+}
+
+.contact h2:nth-child(2){
+    font-family: 'AppSILR';
+    font-size: 1.75rem;
+
+}
+
+.contact span {
+    color: #0036ce;
+}
 .t-grid {
     display: grid;
 	grid-template-columns: repeat(3, minmax(100px, 1fr));
@@ -297,4 +317,67 @@ nav ul li a:hover {
     border-radius: 10px;
     width: 20vw;
     height: 50vh;
+}
+
+footer {
+    height: 1%;
+    margin-top: 5%;
+    padding-bottom: 1%;
+    text-align: center;
+    /* width: 75%; */
+    /* background-color: white; */
+    /* display: flex;
+    justify-content: center;
+    vertical-align: middle; */
+}
+
+hr {
+    height: 3px;
+    background-color: #0036ce;
+    outline: none;
+    border: none;
+    margin: 0 15% 0 15%;
+    border-radius: 25px;
+    margin-bottom: 1%;
+    opacity: .6;
+    position: relative;
+    top: 2vh;
+}
+
+footer {
+    font-family: 'AppSILR';
+}
+footer .copyright{
+    font-size: 2rem;
+    color: #0036ce;
+}
+
+footer .copyright strong{
+    font-family: 'AppSILR';
+}
+
+footer .copyright img {
+    position: relative;
+    top: 1.5vh;
+    width: 3vw;
+    height: auto;
+}
+
+footer ul, footer div {
+    display: block;
+    list-style: none;
+}
+
+footer ul li {
+    margin: 1em;
+    display: inline-block;
+}
+  
+footer ul li a {
+    font-size: 2rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 4rem;
+    line-height: 30px;
+    color: #0036ce;
 }
