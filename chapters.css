@@ -209,4 +209,8 @@ footer ul li a {
         padding-top: 3.2vh;
     }
 
+    iframe {
+        height: 70vh;
+    }
+
 }
