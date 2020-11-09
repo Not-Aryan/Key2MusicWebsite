@@ -410,5 +410,8 @@ footer ul li a {
         font-size: 1.25vw;
     }
 
+    nav h1 {
+        padding-top: 2.2vh;
+    }
 }
 

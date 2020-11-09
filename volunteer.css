@@ -208,6 +208,10 @@ footer ul li a {
     .row ul li {
         font-size: 1vw;
     }
+    
+    nav h1 {
+        padding-top: 2.2vh;
+    }
 
 }
 
