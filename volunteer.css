@@ -48,7 +48,7 @@ nav {
 nav h1 {
     font-size: 1.9rem;
     text-transform: none;
-    padding-top: 1%;
+    padding-top: 2vh;
 }
 
 
@@ -203,3 +203,12 @@ footer ul li a {
     line-height: 30px;
     color: #0036ce;
 }
+
+@media (min-aspect-ratio: 16/10) {
+    .row ul li {
+        font-size: 1vw;
+    }
+
+}
+
+
