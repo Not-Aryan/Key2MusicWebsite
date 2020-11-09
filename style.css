@@ -395,7 +395,7 @@ footer ul li a {
     color: #0036ce;
 }
 
-@media (min-height: 1600) {
+@media (min-height: 1500) {
     .place img {
         width: 15vw;
         height: auto;
