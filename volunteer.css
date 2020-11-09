@@ -204,7 +204,7 @@ footer ul li a {
     color: #0036ce;
 }
 
-@media (min-aspect-ratio: 16/10) {
+@media (min-height: 1600) {
     .row ul li {
         font-size: 1vw;
     }
